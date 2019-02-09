@@ -1,0 +1,19 @@
+﻿  Rain.cpp
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(28): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(77): warning C4305: '+=': truncation from 'double' to 'float'
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(80): warning C4305: '-=': truncation from 'double' to 'float'
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(83): warning C4305: '+=': truncation from 'double' to 'float'
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(86): warning C4305: '-=': truncation from 'double' to 'float'
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(130): warning C4305: '=': truncation from 'double' to 'float'
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(146): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(148): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(176): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(209): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(246): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(286): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(287): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(292): warning C4305: '+=': truncation from 'double' to 'float'
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(308): warning C4101: 'z': unreferenced local variable
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(308): warning C4101: 'y': unreferenced local variable
+d:\opengl_assignments\visual_studio_project\rain_new\rain.cpp(308): warning C4101: 'x': unreferenced local variable
+  Rain_New.vcxproj -> D:\OpenGl_Assignments\Visual_Studio_Project\Rain_New\Debug\Rain_New.exe

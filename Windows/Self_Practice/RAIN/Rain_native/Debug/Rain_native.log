@@ -1,0 +1,19 @@
+﻿  rain_native.cpp
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(46): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(506): warning C4305: '+=': truncation from 'double' to 'float'
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(509): warning C4305: '-=': truncation from 'double' to 'float'
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(512): warning C4305: '+=': truncation from 'double' to 'float'
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(515): warning C4305: '-=': truncation from 'double' to 'float'
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(558): warning C4305: '=': truncation from 'double' to 'float'
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(574): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(576): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(604): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(637): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(674): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(714): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(715): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(720): warning C4305: '+=': truncation from 'double' to 'float'
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(736): warning C4101: 'z': unreferenced local variable
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(736): warning C4101: 'y': unreferenced local variable
+d:\opengl_assignments\visual_studio_project\rain_native\rain_native.cpp(736): warning C4101: 'x': unreferenced local variable
+  Rain_native.vcxproj -> D:\OpenGl_Assignments\Visual_Studio_Project\Rain_native\Debug\Rain_native.exe
