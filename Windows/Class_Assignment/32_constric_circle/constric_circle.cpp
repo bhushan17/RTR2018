@@ -340,52 +340,7 @@ void display()
 	glLoadIdentity();
 	glTranslatef(0.0f, 0.0f, -3.0f);
 
-	glLineWidth(2.0f);
-	glBegin(GL_LINES);
-	glColor3f(0.0f, 0.5f, 0.0f);
-	glVertex2f(0.0f, -1.0f);
-	glColor3f(0.0f, 0.5f, 0.0f);
-	glVertex2f(0.0f, 1.0f);
-	glEnd();
-
-	glLineWidth(2.0f);
-	glBegin(GL_LINES);
-	glColor3f(0.0f, 0.5f, 0.0f);
-	glVertex2f(-1.0f, 0.0f);
-	glColor3f(0.0f, 0.5f, 0.0f);
-	glVertex2f(1.0f, 0.0f);
-	glEnd();
-
-
-	for (index = 0; index <= 40; index++)
-	{
-		x_coordinate = x_coordinate + 0.05f;
-		y_coordinate = y_coordinate + 0.05f;
-
-		if (int(x_coordinate * 100) == 0)
-		{
-
-			continue;
-		}
-		else {
-			glLineWidth(1.0f);
-			glBegin(GL_LINES);
-			glColor3f(0.0f, 0.3f, 0.0f);
-			glVertex2f(x_coordinate, -1.00f);
-			glColor3f(0.0f, 0.3f, 0.0f);
-			glVertex2f(x_coordinate, 1.00f);
-			glEnd();
-
-			glLineWidth(1.0f);
-			glBegin(GL_LINES);
-			glColor3f(0.0f, 0.3f, 0.0f);
-			glVertex2f(-1.00f, y_coordinate);
-			glColor3f(0.0f, 0.3f, 0.0f);
-			glVertex2f(1.00f, y_coordinate);
-			glEnd();
-		}
-
-	}
+	
 
 	for (outer_index = 0;outer_index < 10; outer_index++)
 	{

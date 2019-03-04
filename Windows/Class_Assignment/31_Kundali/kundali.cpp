@@ -320,9 +320,9 @@ void display()
 	glVertex2f(1.0f, -1.0f);
 	glEnd();*/
 
-	glLineWidth(2.0f);
+	glLineWidth(3.0f);
 	glBegin(GL_LINE_LOOP);
-	glColor3f(1.0f, 1.0f, 0.0f);
+	glColor3f(1.0f, 1.0f, 1.0f);
 
 	glVertex3f(1.0f, 1.0f,0.0f);
 	glVertex3f(-1.0f, 1.0f, 0.0f);
