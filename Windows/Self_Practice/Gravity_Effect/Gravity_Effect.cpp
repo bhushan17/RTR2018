@@ -481,19 +481,20 @@ void display()
 		glTranslatef(0.0f, 0.0f, -9.0f);
 		glRotatef(sun_roatate, 0, 0, 1);
 
-		glColor3f(1, 0.2, 0);
+		
 		for (double i = 0; i <= 360;) {
 			glBegin(GL_TRIANGLES);
-			x = 0.5 * cos(i);
-			y = 0.6 * sin(i);
+			x = 0.3 * cos(i);
+			y = 0.3 * sin(i);
+			glColor3f(1, 0, 0);
 			
 			glVertex2d(x, y);
 			i = i + .5;
-			x = 1.2 * cos(i);
-			y = 1.2 * sin(i);
-			
+			x = 1.3 * cos(i);
+			y = 1.3 * sin(i);
+			glColor3f(1, 0.7, 0);
 			glVertex2d(x, y);
-			
+			glColor3f(1, 0, 0);
 			glVertex2d(0, 0);
 			glEnd();
 			i = i + .5;
@@ -635,16 +636,17 @@ void display()
 		glColor3f(1, 0.2, 0);
 		for (double i = 0; i <= 360;) {
 			glBegin(GL_TRIANGLES);
-			x = 0.5 * cos(i);
-			y = 0.5 * sin(i);
-			
+			x = 0.3 * cos(i);
+			y = 0.3 * sin(i);
+			glColor3f(1, 0, 0);
+
 			glVertex2d(x, y);
 			i = i + .5;
-			x = 1.2 * cos(i);
-			y = 1.2 * sin(i);
-			
+			x = 1.3 * cos(i);
+			y = 1.3 * sin(i);
+			glColor3f(1, 0.7, 0);
 			glVertex2d(x, y);
-			
+			glColor3f(1, 0, 0);
 			glVertex2d(0, 0);
 			glEnd();
 			i = i + .5;
