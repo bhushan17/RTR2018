@@ -1,0 +1,4 @@
+#Mon Jul 01 23:40:53 IST 2019
+base.0=D\:\\Users\\LENOVO\\AndroidStudioProjects\\04_Hello_world_with_event\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.0=classes.dex
+renamed.0=classes.dex

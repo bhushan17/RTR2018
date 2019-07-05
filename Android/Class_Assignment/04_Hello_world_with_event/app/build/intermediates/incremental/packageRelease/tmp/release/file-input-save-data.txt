@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Jul 01 23:40:53 IST 2019
+0.baseType=DIRECTORY
+0.base=D\:\\Users\\LENOVO\\AndroidStudioProjects\\04_Hello_world_with_event\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+0.path=classes.dex
+0.set=DEX
+count=1
