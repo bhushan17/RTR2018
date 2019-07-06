@@ -1,0 +1,4 @@
+#Sat Jul 06 19:24:01 IST 2019
+base.0=D\:\\Users\\LENOVO\\AndroidStudioProjects\\07_Hello_world_view_as_object\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

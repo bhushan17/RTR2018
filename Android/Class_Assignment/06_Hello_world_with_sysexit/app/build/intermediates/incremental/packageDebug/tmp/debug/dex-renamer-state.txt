@@ -1,0 +1,4 @@
+#Sat Jul 06 19:07:43 IST 2019
+base.0=D\:\\Users\\LENOVO\\AndroidStudioProjects\\06_Hello_world_with_sysexit\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex
