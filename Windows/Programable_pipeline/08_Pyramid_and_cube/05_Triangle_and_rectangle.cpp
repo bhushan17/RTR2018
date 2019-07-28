@@ -718,9 +718,16 @@ void display()
 
 	//Do necessary Matrix multiplication
 	translateMatrix = translate(2.0f, 0.0f, -6.0f);
-	rotationMatrix = rotate(angle_cube, 1.0f, 1.0f, 0.0f);
-	
+	rotationMatrix = rotate(angle_cube, angle_cube, angle_cube);
+	//rotationMatrix = rotate(angle_cube, 1.0f, 0.0f, 0.0f);
 	translateMatrix = translateMatrix * rotationMatrix;
+	
+	/*rotationMatrix = rotate(angle_cube, 0.0f, 1.0f, 0.0f);
+	translateMatrix = translateMatrix * rotationMatrix;
+
+	rotationMatrix = rotate(angle_cube, 0.0f, 0.0f, 1.0f);
+	translateMatrix = translateMatrix * rotationMatrix;*/
+
 	modelViewMatrix = modelViewMatrix * translateMatrix;
 	modelViewProjectionMatrix = perspectiveProjectionMatrix * modelViewMatrix;
 
