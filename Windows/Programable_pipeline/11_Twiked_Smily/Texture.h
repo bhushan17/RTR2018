@@ -1,0 +1,3 @@
+#define IDBITMAP_SMILY 101
+#define IDBITMAP_NOSMILY 102
+
