@@ -1,4 +1,0 @@
-﻿  04_Perspective_Projection.cpp
-d:\opengl_assignments\visual_studio_project\programable_pipeline\modelloading\vmath.h(996): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-d:\opengl_assignments\visual_studio_project\programable_pipeline\modelloading\04_perspective_projection.cpp(633): warning C4101: 'index': unreferenced local variable
-  04_Perspective_Projection.vcxproj -> D:\OpenGl_Assignments\Visual_Studio_Project\Programable_pipeline\ModelLoading\x64\Debug\04_Perspective_Projection.exe
