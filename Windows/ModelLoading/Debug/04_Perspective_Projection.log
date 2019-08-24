@@ -1,0 +1,33 @@
+﻿  04_Perspective_Projection.cpp
+d:\opengl_assignments\visual_studio_project\programable_pipeline\04_perspective_projection\vmath.h(996): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\opengl_assignments\visual_studio_project\programable_pipeline\04_perspective_projection\04_perspective_projection.cpp(543): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\opengl_assignments\visual_studio_project\programable_pipeline\04_perspective_projection\04_perspective_projection.cpp(546): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+04_Perspective_Projection.obj : error LNK2019: unresolved external symbol __imp__glewInit@0 referenced in function "int __cdecl intialize(void)" (?intialize@@YAHXZ)
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewBindBuffer
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewBufferData
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewDeleteBuffers
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewGenBuffers
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewAttachShader
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewBindAttribLocation
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewCompileShader
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewCreateProgram
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewCreateShader
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewDeleteProgram
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewDeleteShader
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewDetachShader
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewEnableVertexAttribArray
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewGetAttachedShaders
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramInfoLog
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramiv
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderInfoLog
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderiv
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewGetUniformLocation
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewLinkProgram
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewShaderSource
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewUniformMatrix4fv
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewUseProgram
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewVertexAttribPointer
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewBindVertexArray
+04_Perspective_Projection.obj : error LNK2001: unresolved external symbol __imp____glewGenVertexArrays
+C:\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\OpenGl_Assignments\Visual_Studio_Project\Programable_pipeline\04_Perspective_Projection\Debug\04_Perspective_Projection.exe : fatal error LNK1120: 27 unresolved externals

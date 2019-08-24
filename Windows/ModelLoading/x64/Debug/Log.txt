@@ -1,0 +1,13 @@
+Log File Created Successfully.!!! 
+Register class start !!!
+Register class complete !!!
+Inside Intialization.!!!
+
+ Modelloading start complete
+ numberOfVertex = 45425 
+ numberOfTextureCoordinate = 68984 
+ numberOfNormals = 27003 
+ faceIndiciesIndex = 84847 
+ malloc done 
+ start of Fillarray 
+ Fillarray completed. 
