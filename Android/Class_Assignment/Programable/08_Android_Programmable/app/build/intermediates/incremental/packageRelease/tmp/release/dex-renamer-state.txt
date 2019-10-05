@@ -1,4 +1,0 @@
-#Thu Aug 15 19:12:34 IST 2019
-base.0=D\:\\Users\\LENOVO\\AndroidStudioProjects\\Programable\\08_Android_Programmable\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
-path.0=classes.dex
-renamed.0=classes.dex

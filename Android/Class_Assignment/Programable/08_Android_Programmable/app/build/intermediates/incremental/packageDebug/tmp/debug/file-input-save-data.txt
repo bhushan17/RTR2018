@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Thu Aug 15 19:12:26 IST 2019
-0.baseType=DIRECTORY
-0.base=D\:\\Users\\LENOVO\\AndroidStudioProjects\\Programable\\08_Android_Programmable\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
-0.path=classes.dex
-0.set=DEX
-count=1
