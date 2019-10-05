@@ -1,0 +1,4 @@
+#Thu Oct 03 23:20:46 IST 2019
+base.0=D\:\\Users\\LENOVO\\AndroidStudioProjects\\Programable\\05_Triangle_and_rectangle\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.0=classes.dex
+renamed.0=classes.dex
