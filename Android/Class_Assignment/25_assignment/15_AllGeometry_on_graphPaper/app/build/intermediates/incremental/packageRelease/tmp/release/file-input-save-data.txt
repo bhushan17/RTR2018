@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Oct 06 01:36:07 IST 2019
+0.baseType=DIRECTORY
+0.base=D\:\\Users\\LENOVO\\AndroidStudioProjects\\Programable\\15_AllGeometry_on_graphPaper\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+0.path=classes.dex
+0.set=DEX
+count=1
