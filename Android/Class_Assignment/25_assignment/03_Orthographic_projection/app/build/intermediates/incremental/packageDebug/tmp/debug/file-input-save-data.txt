@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu Oct 03 01:55:09 IST 2019
+0.baseType=DIRECTORY
+0.base=D\:\\Users\\LENOVO\\AndroidStudioProjects\\Programable\\09_Orthographic_projection\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+0.set=DEX
+count=1

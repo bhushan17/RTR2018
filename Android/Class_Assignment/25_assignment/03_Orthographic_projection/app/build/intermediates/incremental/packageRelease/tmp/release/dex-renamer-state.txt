@@ -1,0 +1,4 @@
+#Thu Oct 03 01:55:09 IST 2019
+base.0=D\:\\Users\\LENOVO\\AndroidStudioProjects\\Programable\\09_Orthographic_projection\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.0=classes.dex
+renamed.0=classes.dex
