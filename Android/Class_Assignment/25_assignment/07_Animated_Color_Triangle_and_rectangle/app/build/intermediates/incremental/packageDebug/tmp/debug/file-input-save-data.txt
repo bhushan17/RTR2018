@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Oct 04 00:22:52 IST 2019
+0.baseType=DIRECTORY
+0.base=D\:\\Users\\LENOVO\\AndroidStudioProjects\\Programable\\07_Animated_Color_Triangle_and_rectangle\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+0.set=DEX
+count=1
