@@ -1,0 +1,4 @@
+#Sat Oct 05 16:15:48 IST 2019
+base.0=D\:\\Users\\LENOVO\\AndroidStudioProjects\\Programable\\08_Pyramid_and_cube_with_color\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex
