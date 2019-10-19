@@ -1,0 +1,4 @@
+#Tue Oct 08 17:01:19 IST 2019
+base.0=D\:\\Users\\LENOVO\\AndroidStudioProjects\\Programable\\16_Animated_deathlyhollow\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex
