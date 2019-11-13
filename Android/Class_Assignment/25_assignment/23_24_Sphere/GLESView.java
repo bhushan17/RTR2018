@@ -684,8 +684,8 @@ void draw24Sphere() {
 
 	//Do necessary Matrix multiplication
 	//Matrix.translateM(translateMatrix,0,-4.5f, 2.3f, -7.0f);
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -696,7 +696,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 	
-	GLES32.glViewport(0,(5*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport(0,(5*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen 
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -741,8 +741,8 @@ void draw24Sphere() {
 
 	//Do necessary Matrix multiplication
 	//Matrix.translateM(translateMatrix,0,-4.5f, 1.5f, -7.0f);
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -753,7 +753,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport(0,(4*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport(0,(4*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -797,8 +797,8 @@ void draw24Sphere() {
 
 	//Do necessary Matrix multiplication
 	//Matrix.translateM(translateMatrix,0,-4.5f, 0.7f, -7.0f);
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -809,7 +809,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport(0,(3*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport(0,(3*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -855,8 +855,8 @@ void draw24Sphere() {
 	//Do necessary Matrix multiplication
 	
 	//Matrix.translateM(translateMatrix,0,-4.5f, -0.1f, -7.0f);
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -867,7 +867,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport(0,(2*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport(0,(2*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -913,8 +913,8 @@ void draw24Sphere() {
 
 	//Do necessary Matrix multiplication
 	//Matrix.translateM(translateMatrix,0,-4.5f, -1.2f, -7.0f);
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -925,7 +925,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport(0,(1*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport(0,(1*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -970,8 +970,8 @@ void draw24Sphere() {
 
 	//Do necessary Matrix multiplication
 	//Matrix.translateM(translateMatrix,0,-4.5f, -2.3f, -7.0f);
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -982,7 +982,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport(0,0,gwidth/4,gheight/6);
+	GLES32.glViewport(0,0,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1029,8 +1029,8 @@ void draw24Sphere() {
 
 	//Do necessary Matrix multiplication
 	//Matrix.translateM(translateMatrix,0,-0.5f, 1.0f, -7.0f);
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1042,7 +1042,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
 
-    GLES32.glViewport((1*gwidth)/4,(5*gheight)/6,gwidth/4,gheight/6);
+    GLES32.glViewport((1*gwidth)/4,(5*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1085,8 +1085,8 @@ void draw24Sphere() {
 
 	//Do necessary Matrix multiplication
 	//Matrix.translateM(translateMatrix,0,-0.5f, 0.6f, -7.0f);
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1097,7 +1097,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 	
-	GLES32.glViewport((1*gwidth)/4,(4*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport((1*gwidth)/4,(4*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1140,8 +1140,8 @@ void draw24Sphere() {
 
 	//Do necessary Matrix multiplication
 	//Matrix.translateM(translateMatrix,0,-0.5f, 0.2f, -7.0f);
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1152,7 +1152,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
 
-	GLES32.glViewport((1*gwidth)/4,(3*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport((1*gwidth)/4,(3*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1197,8 +1197,8 @@ void draw24Sphere() {
 
 	//Do necessary Matrix multiplication
 	//Matrix.translateM(translateMatrix,0,-0.5f, -0.2f, -7.0f);
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1208,7 +1208,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport((1*gwidth)/4,(2*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport((1*gwidth)/4,(2*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1253,8 +1253,8 @@ void draw24Sphere() {
 
 	//Do necessary Matrix multiplication
 	//Matrix.translateM(translateMatrix,0,-0.5f, -0.6f, -7.0f);
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1264,7 +1264,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport((1*gwidth)/4,(1*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport((1*gwidth)/4,(1*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1309,8 +1309,8 @@ void draw24Sphere() {
 
 	//Do necessary Matrix multiplication
 	//Matrix.translateM(translateMatrix,0,-0.5f, -1.0f, -7.0f);
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1320,7 +1320,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport((1*gwidth)/4,0,gwidth/4,gheight/6);
+	GLES32.glViewport((1*gwidth)/4,0,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1368,8 +1368,8 @@ void draw24Sphere() {
 
 	//Do necessary Matrix multiplication
 	//Matrix.translateM(translateMatrix,0,0.5f, 1.0f, -7.0f);
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1379,7 +1379,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport((2*gwidth)/4,(5*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport((2*gwidth)/4,(5*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1421,8 +1421,8 @@ void draw24Sphere() {
 	Matrix.setIdentityM(modelViewProjectionMatrix,0);
 
 	//Do necessary Matrix multiplication
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1432,7 +1432,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport((2*gwidth)/4,(4*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport((2*gwidth)/4,(4*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1477,8 +1477,8 @@ void draw24Sphere() {
 	Matrix.setIdentityM(modelViewProjectionMatrix,0);
 
 	//Do necessary Matrix multiplication
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1488,7 +1488,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport((2*gwidth)/4,(3*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport((2*gwidth)/4,(3*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1534,8 +1534,8 @@ void draw24Sphere() {
 	Matrix.setIdentityM(modelViewProjectionMatrix,0);
 
 	//Do necessary Matrix multiplication
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1545,7 +1545,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport((2*gwidth)/4,(2*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport((2*gwidth)/4,(2*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1591,8 +1591,8 @@ void draw24Sphere() {
 	Matrix.setIdentityM(modelViewProjectionMatrix,0);
 
 	//Do necessary Matrix multiplication
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1603,7 +1603,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport((2*gwidth)/4,(1*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport((2*gwidth)/4,(1*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1648,8 +1648,8 @@ void draw24Sphere() {
 	Matrix.setIdentityM(modelViewProjectionMatrix,0);
 
 	//Do necessary Matrix multiplication
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1659,7 +1659,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport((2*gwidth)/4,0,gwidth/4,gheight/6);
+	GLES32.glViewport((2*gwidth)/4,0,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1709,8 +1709,8 @@ void draw24Sphere() {
 	Matrix.setIdentityM(modelViewProjectionMatrix,0);
 
 	//Do necessary Matrix multiplication
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1720,7 +1720,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport((3*gwidth)/4,(5*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport((3*gwidth)/4,(5*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1762,8 +1762,8 @@ void draw24Sphere() {
 	Matrix.setIdentityM(modelViewProjectionMatrix,0);
 
 	//Do necessary Matrix multiplication
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1773,7 +1773,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport((3*gwidth)/4,(4*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport((3*gwidth)/4,(4*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1817,8 +1817,8 @@ void draw24Sphere() {
 	Matrix.setIdentityM(modelViewProjectionMatrix,0);
 
 	//Do necessary Matrix multiplication
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1828,7 +1828,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport((3*gwidth)/4,(3*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport((3*gwidth)/4,(3*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1872,8 +1872,8 @@ void draw24Sphere() {
 	Matrix.setIdentityM(modelViewProjectionMatrix,0);
 
 	//Do necessary Matrix multiplication
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1883,7 +1883,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport((3*gwidth)/4,(2*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport((3*gwidth)/4,(2*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1929,8 +1929,8 @@ void draw24Sphere() {
 	Matrix.setIdentityM(modelViewProjectionMatrix,0);
 
 	//Do necessary Matrix multiplication
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1940,7 +1940,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport((3*gwidth)/4,(1*gheight)/6,gwidth/4,gheight/6);
+	GLES32.glViewport((3*gwidth)/4,(1*gheight)/6,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);
@@ -1985,8 +1985,8 @@ void draw24Sphere() {
 	Matrix.setIdentityM(modelViewProjectionMatrix,0);
 
 	//Do necessary Matrix multiplication
-	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -2.0f);
-	Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
+	Matrix.translateM(translateMatrix,0,0.0f, 0.0f, -1.5f);
+	//Matrix.scaleM(scaleMatrix,0,0.3f, 0.3f, 0.3f);
 	
 	Matrix.multiplyMM(modelMatrix,0,translateMatrix,0,modelMatrix,0);
 	Matrix.multiplyMM(modelMatrix,0,scaleMatrix,0,modelMatrix,0);
@@ -1996,7 +1996,7 @@ void draw24Sphere() {
 	GLES32.glUniformMatrix4fv(viewMatrix_Uniform, 1, false, viewMatrix,0);
 	GLES32.glUniformMatrix4fv(projection_Uniform, 1, false, perspectiveProjectionMatrix,0);
 
-	GLES32.glViewport((3*gwidth)/4,0,gwidth/4,gheight/6);
+	GLES32.glViewport((3*gwidth)/4,0,gwidth/6,gheight/6);
 	GLES32.glBindVertexArray(vao_sphere[0]);
 	//Draw necessary seen
 	GLES32.glBindBuffer(GLES32.GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element[0]);

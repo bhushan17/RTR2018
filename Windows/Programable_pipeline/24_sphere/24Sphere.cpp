@@ -837,7 +837,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport(0,(5*gheight)/6,gwidth/4,gheight/6);
+	glViewport(0,(5*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -892,7 +892,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport(0,(4*gheight)/6,gwidth/4,gheight/6);
+	glViewport(0,(4*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -945,7 +945,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport(0,(3*gheight)/6,gwidth/4,gheight/6);
+	glViewport(0,(3*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1000,7 +1000,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport(0,(2*gheight)/6,gwidth/4,gheight/6);
+	glViewport(0,(2*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1054,7 +1054,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport(0,(1*gheight)/6,gwidth/4,gheight/6);
+	glViewport(0,(1*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1107,7 +1107,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport(0,0,gwidth/4,gheight/6);
+	glViewport(0,0,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1160,7 +1160,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((1*gwidth)/4,(5*gheight)/6,gwidth/4,gheight/6);
+	glViewport((1*gwidth)/4,(5*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1211,7 +1211,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((1*gwidth)/4,(4*gheight)/6,gwidth/4,gheight/6);
+	glViewport((1*gwidth)/4,(4*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1262,7 +1262,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((1*gwidth)/4,(3*gheight)/6,gwidth/4,gheight/6);
+	glViewport((1*gwidth)/4,(3*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1314,7 +1314,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((1*gwidth)/4,(2*gheight)/6,gwidth/4,gheight/6);
+	glViewport((1*gwidth)/4,(2*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1366,7 +1366,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((1*gwidth)/4,(1*gheight)/6,gwidth/4,gheight/6);
+	glViewport((1*gwidth)/4,(1*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1418,7 +1418,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((1*gwidth)/4,0,gwidth/4,gheight/6);
+	glViewport((1*gwidth)/4,0,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1474,7 +1474,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((2*gwidth)/4,(5*gheight)/6,gwidth/4,gheight/6);
+	glViewport((2*gwidth)/4,(5*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1525,7 +1525,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((2*gwidth)/4,(4*gheight)/6,gwidth/4,gheight/6);
+	glViewport((2*gwidth)/4,(4*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1578,7 +1578,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((2*gwidth)/4,(3*gheight)/6,gwidth/4,gheight/6);
+	glViewport((2*gwidth)/4,(3*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1632,7 +1632,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((2*gwidth)/4,(2*gheight)/6,gwidth/4,gheight/6);
+	glViewport((2*gwidth)/4,(2*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1686,7 +1686,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((2*gwidth)/4,(1*gheight)/6,gwidth/4,gheight/6);
+	glViewport((2*gwidth)/4,(1*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1739,7 +1739,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((2*gwidth)/4,0,gwidth/4,gheight/6);
+	glViewport((2*gwidth)/4,0,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1798,7 +1798,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((3*gwidth)/4,(5*gheight)/6,gwidth/4,gheight/6);
+	glViewport((3*gwidth)/4,(5*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1851,7 +1851,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((3*gwidth)/4,(4*gheight)/6,gwidth/4,gheight/6);
+	glViewport((3*gwidth)/4,(4*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1905,7 +1905,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((3*gwidth)/4,(3*gheight)/6,gwidth/4,gheight/6);
+	glViewport((3*gwidth)/4,(3*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -1958,7 +1958,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((3*gwidth)/4,(2*gheight)/6,gwidth/4,gheight/6);
+	glViewport((3*gwidth)/4,(2*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -2014,7 +2014,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((3*gwidth)/4,(1*gheight)/6,gwidth/4,gheight/6);
+	glViewport((3*gwidth)/4,(1*gheight)/6,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
@@ -2071,7 +2071,7 @@ void draw24Sphere() {
 	glUniformMatrix4fv(viewMatrix_Uniform, 1, GL_FALSE, viewMatrix);
 	glUniformMatrix4fv(projection_Uniform, 1, GL_FALSE, perspectiveProjectionMatrix);
 
-	glViewport((3*gwidth)/4,0,gwidth/4,gheight/6);
+	glViewport((3*gwidth)/4,0,gwidth/6,gheight/6);
 	glBindVertexArray(gVao_sphere);
 	//Draw necessary seen
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gVbo_sphere_element);
