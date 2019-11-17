@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Nov 18 01:07:07 IST 2019
+0.baseType=DIRECTORY
+0.base=D\:\\Users\\LENOVO\\AndroidStudioProjects\\Programable\\25_Sphere_VS_FS_Toggle\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+0.path=classes.dex
+0.set=DEX
+count=1
