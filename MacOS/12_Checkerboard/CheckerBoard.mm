@@ -93,7 +93,7 @@ int main(int argc, const char * argv[])
 							backing:NSBackingStoreBuffered
 							defer:NO];
 							
-	[window setTitle:@"macOS OpenGL Bhushan's Smily Texture Window"];
+	[window setTitle:@"macOS OpenGL Bhushan's CheckerBoard Window"];
 	[window center];
 	
 	glView=[[GLView alloc]initWithFrame:win_rect];
@@ -538,7 +538,7 @@ void loadTexture()
 	glUniformMatrix4fv(mvpUniform_BRK, 1, GL_FALSE, modelViewProjectionMatrix);
 
 	//bind with texture
-	glBindTexture(GL_TEXTURE_2D,Smilytexture_BRK);
+	glBindTexture(GL_TEXTURE_2D,glteximage_BRK);
 	//bind wit vao (This will avoid many repeated binding with vbo)
 	glBindVertexArray(vaoRectangle_BRK);
 
