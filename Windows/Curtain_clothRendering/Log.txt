@@ -1,0 +1,14 @@
+Log File Created Successfully.!!! 
+Register class start !!!
+Register class complete !!!
+Inside Intialization.!!!
+Inside Intialization after pfd structructure.!!!
+Shader Code start
+ Vertex Shader code start
+ Vertex Shader source code attached
+ Vertex Shader compile error checking start 
+
+ Before ClothSize of Array index =37802 
+ After Cloth
+ Intialization Successfully.!!!
+Log file close Successfully.

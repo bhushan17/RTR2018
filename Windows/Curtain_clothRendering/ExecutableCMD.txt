@@ -1,0 +1,11 @@
+
+cl.exe /c Cloth.cpp -I C:\glew-2.1.0-win32\glew-2.1.0\include 
+link.exe Cloth.obj user32.lib gdi32.lib kernel32.lib opengl32.lib  C:\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64\glew32.lib
+
+
+
+cl.exe /c /EHsc Cloth.cpp -I C:\glew-2.1.0-win32\glew-2.1.0\include -I "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\common\inc"
+
+nvcc.exe -c -o Clothcu.obj Cloth.cu -I C:\glew-2.1.0-win32\glew-2.1.0\include -I "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\common\inc"
+
+link.exe Clothcu.obj Cloth.obj user32.lib gdi32.lib kernel32.lib opengl32.lib  C:\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64\glew32.lib  "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64\cudart.lib"
