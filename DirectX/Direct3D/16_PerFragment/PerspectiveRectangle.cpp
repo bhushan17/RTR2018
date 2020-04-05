@@ -81,7 +81,7 @@ struct CBUFFER
 float LightAmbient[] = { 0.0,0.0,0.0,1.0 };
 float LightDiffuse[] = { 1.0,1.0,1.0,1.0 };
 float lightSpecular[] = { 1.0,1.0,1.0,1.0 };
-float lightPosition[] = { 100.0,100.0,-100.0,1.0 };
+float lightPosition[] = { 75.0,75.0,-10.0,1.0 };
 
 float MaterialAmbient[] = { 0.0,0.0,0.0,1.0 };
 float MaterialDiffuse[] = { 1.0,1.0,1.0,1.0 };
@@ -480,7 +480,7 @@ HRESULT initialize(void)
 		         "eyeCoordinate = mul(viewMatrix, eyeCoordinate);" \
 				"output.t_norm = mul((float3x3)worldMatrix,(float3) normal);" \
 				"output.light_dir = (float3)(lightPosition - eyeCoordinate);" \
-				"output.viewer_vector = (float3)(-eyeCoordinate.xyz);" \
+				"output.viewer_vector = (float3)(eyeCoordinate.xyz);" \
 
 				
 			"}"
@@ -572,7 +572,7 @@ HRESULT initialize(void)
 		"float3 viewer_vector : NORMAL2; " \
 		"};" \
 
-		"float4 main(float4 pos : SV_POSITION, vertex_output Input : INPUT) : SV_TARGET" \
+		"float4 main(float4 pos : SV_POSITION, vertex_output Input ) : SV_TARGET" \
 		"{" \
 		"float4 phong_ads_light;" \
 			"if(lightingEnable == 1)" \
