@@ -7,7 +7,7 @@
 #import<OpenGL/gl3.h>
 #import<OpenGL/gl3ext.h>
 #import "vmath.h"
-#import <vector>
+#include"Sphere.h"
 
 enum
 {
@@ -52,7 +52,13 @@ float materialDiffuse[4] = { 1.0f,1.0f,1.0f,1.0f };
 float materialSpecular[4] = { 1.0f,1.0f,1.0f,1.0f };
 float materialShinyness = 128.0f;
 
+int gNumVertices;
+int gNumElements;
 
+float sphere_vertices[1146];
+float sphere_normals[1146];
+float sphere_textures[764];
+unsigned short sphere_elements[2280];
 //interface declaration
 @interface AppDelegate : NSObject <NSApplicationDelegate, NSWindowDelegate>
 @end
@@ -172,6 +178,7 @@ int main(int argc, const char * argv[])
 	GLuint vao_Sphere_BRK;
 	GLuint vbo_Sphere_Vertex_BRK;
     GLuint vboLine_Sphere_normal_BRK;
+	GLuint vbo_sphere_element_BRK;
     
     bool bLight_BRK ;
 	
@@ -471,76 +478,16 @@ int main(int argc, const char * argv[])
 	// *** vertices, colors, shader attribs, vbo_Sphere_Vertex_BRK, vao_Sphere_BRK intiallize ****
 	
     
-    
-    std::vector<float>circlevertex;
-    
-    std::vector<float>circleNormal;
-    //GLfloat *circleColor = NULL;
-    float radius = 1.0f;
-    float angle = 0.0f;
-    float phyinc = 0.1;
-    float thetainc = 0.1;
-    gNumOfVertices = 0;
-    
-    float theta = 0.5f;
-    
-   for(theta = 0.0f; theta <= 180.0f; theta += thetainc)
-   {
-        for (float phy = 0.0f; phy <= 360.0f; phy += phyinc)
-        {
-            
-            //angle = (2 * M_PI *index) / numpoints;
-            float x = (radius * sin(theta) * cos(phy));
-            float y = (radius * sin(theta) * sin(phy));
-            float z = (radius * cos(theta));
-            
-            
-            
-            circlevertex.push_back(x);
-            circlevertex.push_back(y);
-            circlevertex.push_back(z);
-            
-            
-            
-            gNumOfVertices++;
-            
-            x = (radius * sin(theta+(thetainc/2)) * cos(phy-(phyinc/2)));
-            y = (radius * sin(theta+(thetainc/2)) * sin(phy-(phyinc/2)));
-            z = (radius * cos(theta+(thetainc/2)));
-            
-           
-            
-            circlevertex.push_back(x);
-            circlevertex.push_back(y);
-            circlevertex.push_back(z);
-            
-            
-            
-            gNumOfVertices++;
-            
-            x = (radius * sin(theta+(thetainc/2)) * cos(phy+(phyinc/2)));
-            y = (radius * sin(theta+(thetainc/2)) * sin(phy+(phyinc/2)));
-            z = (radius * cos(theta+(thetainc/2)));
-            
-            
-            
-            circlevertex.push_back(x);
-            circlevertex.push_back(y);
-            circlevertex.push_back(z);
-            
-            
-            
-            gNumOfVertices++;
-            
-        }
-   }
+     getSphereVertexData(sphere_vertices, sphere_normals, sphere_textures, sphere_elements);
+	gNumVertices = getNumberOfSphereVertices();
+	gNumElements = getNumberOfSphereElements();
 	
 	glGenVertexArrays(1,&vao_Sphere_BRK);
 	glBindVertexArray(vao_Sphere_BRK);
 	
 	glGenBuffers(1, &vbo_Sphere_Vertex_BRK);
 	glBindBuffer(GL_ARRAY_BUFFER, vbo_Sphere_Vertex_BRK);
-	glBufferData(GL_ARRAY_BUFFER, gNumOfVertices * sizeof(float), circlevertex.data(), GL_STATIC_DRAW);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(sphere_vertices), sphere_vertices, GL_STATIC_DRAW);
     glVertexAttribPointer(VDG_ATTRIBUTE_VERTEX,3,GL_FLOAT,GL_FALSE,0,NULL);
     glEnableVertexAttribArray(VDG_ATTRIBUTE_VERTEX);
 	glBindBuffer(GL_ARRAY_BUFFER, 0 );
@@ -550,10 +497,15 @@ int main(int argc, const char * argv[])
 
     glGenBuffers(1, &vboLine_Sphere_normal_BRK);
     glBindBuffer(GL_ARRAY_BUFFER, vboLine_Sphere_normal_BRK);
-    glBufferData(GL_ARRAY_BUFFER, gNumOfVertices * sizeof(float), circlevertex.data(), GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(sphere_normals), sphere_normals, GL_STATIC_DRAW);
     glVertexAttribPointer(VDG_ATTRIBUTE_NORMAL, 3, GL_FLOAT, GL_FALSE, 0, NULL);
     glEnableVertexAttribArray(VDG_ATTRIBUTE_NORMAL);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+	 glGenBuffers(1, &vbo_sphere_element_BRK);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element_BRK);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(sphere_elements), sphere_elements, GL_STATIC_DRAW);
+
 
 	glBindVertexArray(0);
 	
@@ -627,7 +579,7 @@ int main(int argc, const char * argv[])
 	vmath::mat4 translateMatrix = vmath::mat4::identity();
 	vmath::mat4 rotationMatrix = vmath::mat4::identity();
     
-    translateMatrix = vmath::translate(0.0f,0.0f,-6.0f);
+    translateMatrix = vmath::translate(0.0f,0.0f,-2.0f);
    // rotationMatrix =  vmath::rotate(angle_rotate, angle_rotate, angle_rotate);
 	
 	translateMatrix = translateMatrix * rotationMatrix;
@@ -669,7 +621,8 @@ int main(int argc, const char * argv[])
     }
 	//****bind vao_Sphere_BRK ***
     glBindVertexArray(vao_Sphere_BRK);
-    glDrawArrays(GL_TRIANGLES, 0, gNumOfVertices);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, vbo_sphere_element_BRK);
+    glDrawElements(GL_TRIANGLES, gNumElements,GL_UNSIGNED_SHORT,0);
 	glBindVertexArray(0);
 		
 	glUseProgram(0);
