@@ -334,7 +334,7 @@ GLubyte checkimage_BRK[CHECKIMAGEWIDTH][CHECKIMAGEHEIGHT][4];
 	//depth test to do
 	glDepthFunc(GL_LEQUAL);
 	//We will always cull back faces for better performance
-	//glEnable(GL_CULL_FACE);
+	glEnable(GL_CULL_FACE);
 		
 	glEnable(GL_TEXTURE_2D);
 		//clear color

@@ -37,7 +37,7 @@
 	[glesView release];
 	
 	//add the ViewController's view as subview to the window
-	//[mainWindow addSubview:[mainViewController view]];
+	[mainWindow addSubview:[mainViewController view]];
 	
 	//make window key window and visible
     [mainWindow makeKeyAndVisible];
